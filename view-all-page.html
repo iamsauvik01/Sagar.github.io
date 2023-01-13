@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image: url('./Images/view-all-page-bg.jpg');
+            background-repeat: no-repeat;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .nav-bar{
+            color: white;
+        }
+
+        main{
+            padding-top: 70px;
+        }
+
+        .img-wrapper video{
+            width: 100%;
+            height: 280px;
+            display: block;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            object-position: center;
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+        <div class="nav-container">
+            <h2 class="logo">Sagar D.</h2>
+
+            <ul class="nav-bar">
+                <li class="nav-list"><a class="nav-links" href="./index.html">Home</a></li>
+                <li class="nav-list"><a class="nav-links" href="./about-me.html">About Me</a></li>
+                <li class="nav-list"><a class="nav-links" href="video.html">Video Projects</a></li>
+            </ul>
+
+            <div class="social-media-container">
+                <ul>
+                    <li><a onclick="myFunction()"><i class="fa-regular fa-envelope fa-2x"></i></i></a></li>
+                    <li><a href="https://instagram.com/sinbad__the___sailor?igshid=OGQ2MjdiOTE="><i class="fa-brands fa-instagram fa-2x"></i></i></a></li>
+                    <li><a href="https://www.behance.net/sagardas35"><i class="fa-brands fa-behance fa-2x"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
+        </div>
+        
+        <main>
+            <div class="three-d-container">
+
+                <a href="concept.html" class="img-wrapper">
+                 <img class="zoom" src="./Images2/Concept.png" alt="">
+                 <div class="content">Concept</div>
+                </a> 
+      
+               <a href="character.html" class="img-wrapper">
+                <img class="zoom" src="./Images2/Character.jpg" alt="">
+                <div class="content">Character<br>Design</div>
+               </a>
+    
+               <a href="photo-manipulation.html" class="img-wrapper">
+                <img class="zoom" src="./Images2/Photomanipulation.png" alt="">
+                <div class="content">Photo<br>Manipulation</div>
+               </a>
+    
+               <a href="reaslastic render.html" class="img-wrapper">
+                <img class="zoom" src="./Images2/Realastic Render.png" alt="">
+                <div class="content">Story</div>
+               </a>
+
+               <a href="ai-art.html" class="img-wrapper">
+                <img class="zoom" src="./Images2/AIArt.png" alt="">
+                <div class="content">AI Art</div>
+               </a>
+
+               <a href="3D-video.html" class="img-wrapper">
+                <video autoplay>
+                    <source src="./Images2/3D.mp4">
+                </video>
+                <div class="content">3D Videos</div>
+               </a>
+
+               <a href="lighting.html" class="img-wrapper">
+                <img class="zoom" src="./Images2/Lighting.png" alt="">
+                <div class="content">Lighting</div>
+               </a>
+
+               <a href="fan-art.html" class="img-wrapper">
+                <img class="zoom" src="./Images2/Fan Art.png" alt="">
+                <div class="content">Fan Art</div>
+               </a>
+
+            </div>
+        </main>
+
+        <script src="script.js"></script>
+</body>
+</html>

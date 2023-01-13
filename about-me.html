@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background: url('./Images/about-me-page-bg.png');
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .social-media-container ul li i:hover{
+            color: #E8B8A2;
+        }
+
+        main{
+            height: 100vh;
+            width: 100vw;
+            margin-top: 40px;
+            display: flex;
+        }
+
+        .left{
+            width: 50%;
+            padding-left: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .profile{
+            height: 400px;
+            width: 600px;
+        }
+
+        h2{
+            color: aliceblue;
+        }
+
+        .left ul{
+            color: rgb(233, 233, 233);
+            line-height: 30px;
+        }
+
+        .right{
+            width: 50%;
+        }
+
+        .achievement-container img{
+            height: 150px;
+            margin: 0 30px;
+        }
+        
+        .right p{
+            color:rgb(233, 233, 233);
+            background: rgba(0,0,0,0.3);
+            line-height: 30px;
+            text-align: justify;
+            max-width: 80%;
+            padding-right: 40px;
+            padding-top: 60px;
+        }
+
+        .right ul{
+            list-style: none;
+            padding: 60px 20px 0 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .right ul li img{
+            height: 80px;
+            box-shadow: -1px 1px 5px rgb(56, 56, 56);
+        }
+
+        @media screen and (max-width: 768px) {
+            main{
+                flex-direction: column;
+            }
+
+            .right, .left{
+                min-width: 100vw;
+            }
+            .right p{
+                background: rgba(0,0,0,0.3);
+                width: 100%;
+                padding-left: 5%;
+            }
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+        <div class="nav-container">
+            <h2 class="logo">Sagar D.</h2>
+
+            <ul class="nav-bar">
+                <li class="nav-list"><a class="nav-links" href="./index.html">Home</a></li>
+                <li class="nav-list"><a class="nav-links" href="">3D designs</a></li>
+                <li class="nav-list"><a class="nav-links" href="">Video Projects</a></li>
+            </ul>
+
+            <div class="social-media-container">
+                <ul>
+                    <li><a onclick="myFunction()"><i class="fa-regular fa-envelope fa-2x"></i></i></a></li>
+                    <li><a href="https://instagram.com/sinbad__the___sailor?igshid=OGQ2MjdiOTE="><i class="fa-brands fa-instagram fa-2x"></i></i></a></li>
+                    <li><a href="https://www.behance.net/sagardas35"><i class="fa-brands fa-behance fa-2x"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
+        </div>
+        
+        <main>
+            <div class="left">
+                <img class="profile" src="./Images/Sagar Picture.png" alt=""> 
+                
+                <h2>Clients</h2>
+
+                <ul>
+                    <li>Underground Street Music</li>
+                    <li>The Hills People</li>
+                    <li>Bharatiya Janata Party (BJP)</li>
+                    <li>Shane (Edil Shane) &#10005; Stunnah Beatz</li>
+                </ul>
+            </div>
+
+            <div class="right">
+
+                <div class="achievement-container">
+                    <img src="./Images2/Achivements/0CE21D51-6346-4ADE-A6FD-21A69CBD4DE4.jpeg" alt="">
+                    <img src="./Images2/Achivements/C24A7D44-E39B-4151-8FD7-3BD749A53968.jpeg" alt="">
+                </div>
+
+                <p>Hey, My name is Sagar Das. I derive my roots from the cold and rainy mountains of 
+                    a Hill Station located in the North-Eastern Region of India, Shillong. 
+                    I am a creative graphic designer with innovative ideas and with an unique approach to visuals. 
+                    I have an experience of more than 3 years in developing designs for print media 
+                    to making digital content for Artist Management Companies, Videos and Advertising. 
+                    I have Solid understanding of how design affects the marketing principles and advertising techniques. 
+                    <br>
+                    An enthusiastic team player who is committed to delivering top results on time and within budget. 
+                    Passion for keeping clients satisfied with each project. 
+                </p>
+                <ul>
+                    <li><img src="./Images/Logos/Blender_logo_no_text.svg.png" alt=""></li>
+                    <li><img src="./Images/Logos/logo.png" alt=""></li>
+                    <li><img src="./Images/Logos/marvelous-designer-blog.jpg" alt=""></li>
+                    <li><img src="./Images/Logos/substance_black_title-1663363117.png" alt=""></li>
+                    <li><img src="./Images/Logos/ue-logo-1400x788-1400x788-8f185e1e3635.jpg" alt=""></li>
+                </ul>
+
+            </div>
+
+        </main>
+
+        <script src="script.js"></script>
+</body>
+</html>
